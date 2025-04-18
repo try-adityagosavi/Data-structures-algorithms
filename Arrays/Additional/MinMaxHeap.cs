@@ -122,8 +122,6 @@ class Program
 {
     static void Main()
     {
-        //Creating max heap
-        Console.WriteLine("Max Heap Example:");
         Heap<int> maxHeap = new Heap<int>(HeapType.MaxHeap);
         maxHeap.Add(4);
         maxHeap.Add(10);
@@ -145,8 +143,7 @@ class Program
         }
         Console.WriteLine("\n");
         
-        //Creating min heap
-        Console.WriteLine("Min Heap Example:");
+        Console.WriteLine("Min Heap:");
         Heap<int> minHeap = new Heap<int>(HeapType.MinHeap);
         minHeap.Add(4);
         minHeap.Add(10);
